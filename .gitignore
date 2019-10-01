@@ -1,4 +1,9 @@
 # Byte-compiled / optimized / DLL files
+misc.xml
+modules.xml
+R_User_Library.xml
+vcs.sml
+
 __pycache__/
 *.py[cod]
 *$py.class

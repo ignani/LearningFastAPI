@@ -10,5 +10,10 @@ app = FastAPI(debug = True)
 async def root():
     return {"message": "Hello World"}
 
+
+@app.get("/home")
+async def myhome():
+    return {"message": "Home Page"}
+
 if __name__ == "__main__":
     uvicorn.run(app, host = "127.0.0.1", port = 8000)
